@@ -9,7 +9,7 @@ install:
     bundle install
 
     bundle exec rake appveyor
-cache: packages -> **\packages.config
+#cache: packages -> **\packages.config
 build: off
 before_test:
 - cmd: dir /s *Tests.dll
