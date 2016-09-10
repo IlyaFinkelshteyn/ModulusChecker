@@ -13,6 +13,11 @@ cache: packages -> **\packages.config
 build: off
 before_test:
 - cmd: dir /s *Tests.dll
+test:
+  assemblies: 
+    - 'ModulusCheckingTests\bin\Release-netv35\*.tests.dll'
+    - 'ModulusCheckingTests\bin\Release-netv4\*.tests.dll'
+    - 'ModulusCheckingTests\bin\Release-netv45\*.tests.dll'
 #test_script:
 #- cmd: bundle exec rake tests
 artifacts:
