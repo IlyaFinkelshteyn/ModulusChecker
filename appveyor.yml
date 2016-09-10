@@ -13,7 +13,8 @@ install:
 build: off
 before_test:
 - cmd: dir /s *Tests.dll
-assemblies: 
+test:
+  assemblies: 
     - ModulusCheckingTests\bin\Release-netv35\ModulusCheckerTests.dll
     - ModulusCheckingTests\bin\Release-netv4\ModulusCheckerTests.dll
     - ModulusCheckingTests\bin\Release-netv45\ModulusCheckerTests.dll
