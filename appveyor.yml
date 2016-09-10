@@ -15,9 +15,9 @@ before_test:
 - cmd: dir /s *Tests.dll
 test:
   assemblies: 
-    - 'ModulusCheckingTests\bin\Release-netv35\ModulusCheckerTests.dll'
-    - 'ModulusCheckingTests\bin\Release-netv4\ModulusCheckerTests.dll'
-    - 'ModulusCheckingTests\bin\Release-netv45\ModulusCheckerTests.dll'
+    - ModulusCheckingTests\bin\Release-netv35\ModulusCheckerTests.dll
+    - ModulusCheckingTests\bin\Release-netv4\ModulusCheckerTests.dll
+    - ModulusCheckingTests\bin\Release-netv45\ModulusCheckerTests.dll
 #test_script:
 #- cmd: bundle exec rake tests
 artifacts:
